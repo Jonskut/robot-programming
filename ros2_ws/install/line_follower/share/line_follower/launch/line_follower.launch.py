@@ -8,7 +8,7 @@ def generate_launch_description():
     pkg_share = get_package_share_directory('line_follower')
     world_path = os.path.join(pkg_share, 'worlds', 'line_follower.sdf')
 
-    print("World path:", world_path)  # This line was added
+    print("World path:", world_path)  # This line was added for debugging
 
     # Launch Gazebo
     gazebo = ExecuteProcess(
