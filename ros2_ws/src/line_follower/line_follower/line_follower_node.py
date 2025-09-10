@@ -79,7 +79,8 @@ class LineFollower(Node):
                 error = cx - width // 2
                 # Proportional controller for steering
                 twist.linear.x = 0.5
-                twist.angular.z = -float(error) / 100.0
+                Kp = 1.0    # TODO: Tune this parameter (it works fine tho)
+                twist.angular.z = -Kp * float(error) / 100.0
             else:
                 # If no centroid, stop
                 twist.linear.x = 0.0
