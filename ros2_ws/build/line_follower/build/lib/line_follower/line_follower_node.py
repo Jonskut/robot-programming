@@ -5,6 +5,7 @@ from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
 import cv2
 import numpy as np
+from std_msgs.msg import Int32
 
 # This is a simple line follower node that processes images 
 # from a camera and publishes velocity commands to follow a line.
@@ -12,12 +13,13 @@ import numpy as np
 class LineFollower(Node):
     def __init__(self):
         super().__init__('line_follower')
-
         self.bridge = CvBridge()
+        self.paused = False  # Add paused flag
+
         # Subscriber to camera
         self.subscription = self.create_subscription(
             Image,
-            '/camera_image',  # Make sure this matches your bridge remap
+            '/world/line_follower/model/vehicle_blue/link/rgb_camera/sensor/camera_sensor/image',  # Make sure this matches your bridge remap
             self.image_callback,
             10
         )
@@ -25,7 +27,29 @@ class LineFollower(Node):
         # Publisher to cmd_vel
         self.publisher = self.create_publisher(Twist, '/cmd_vel', 10)
 
+        # Subscribe to keyboard keypress topic
+        self.keyboard_sub = self.create_subscription(
+            Int32,
+            '/keyboard/keypress',
+            self.keyboard_callback,
+            10
+        )
+
+    def keyboard_callback(self, msg):
+        if msg.data == 80:
+            self.paused = not self.paused
+            state = "paused" if self.paused else "resumed"
+            self.get_logger().info(f"Line follower {state}")
+            if self.paused:
+                # Publish zero velocity to stop the robot
+                twist = Twist()
+                twist.linear.x = 0.0
+                twist.angular.z = 0.0
+                self.publisher.publish(twist)
+
     def image_callback(self, msg):
+        if self.paused:
+            return  # Do nothing if paused
         # Convert ROS Image to OpenCV image
         try:
             cv_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
@@ -54,7 +78,7 @@ class LineFollower(Node):
                 # Calculate error from center
                 error = cx - width // 2
                 # Proportional controller for steering
-                twist.linear.x = 0.15
+                twist.linear.x = 0.5
                 twist.angular.z = -float(error) / 100.0
             else:
                 # If no centroid, stop

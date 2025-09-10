@@ -34,7 +34,9 @@ def generate_launch_description():
             # Camera info bridge 
             '/world/line_follower/model/vehicle_blue/link/rgb_camera/sensor/camera_sensor/camera_info@sensor_msgs/msg/CameraInfo@ignition.msgs.CameraInfo',
             # Cmd_vel bridge
-            '/cmd_vel@geometry_msgs/msg/Twist@ignition.msgs.Twist'
+            '/cmd_vel@geometry_msgs/msg/Twist@ignition.msgs.Twist',
+            # Keyboard keypress bridge
+            '/keyboard/keypress@std_msgs/msg/Int32@ignition.msgs.Int32'
         ],
         output='screen'
     )
