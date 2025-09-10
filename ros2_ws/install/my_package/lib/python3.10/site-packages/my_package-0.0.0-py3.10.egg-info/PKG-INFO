@@ -1,10 +1,10 @@
 Metadata-Version: 2.1
 Name: my-package
 Version: 0.0.0
-Summary: TODO: Package description
+Summary: Tutorial package for robo.400 course
 Home-page: UNKNOWN
-Maintainer: jone
-Maintainer-email: jone@todo.todo
+Maintainer: Jonatan Tevaniemi
+Maintainer-email: jonatan.tevaniemi@tuni.fi
 License: Apache-2.0
 Platform: UNKNOWN
 License-File: LICENSE

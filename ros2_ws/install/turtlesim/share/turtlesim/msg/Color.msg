@@ -1,3 +1,1 @@
-uint8 r
-uint8 g
-uint8 b
+/home/jone/robo_400/ros2_ws/src/ros_tutorials/turtlesim/msg/Color.msg

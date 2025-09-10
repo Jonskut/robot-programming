@@ -1,0 +1,406 @@
+[0.089s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.089s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7dfc0d04ac50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7dfc0d15faf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7dfc0d15faf0>>, mixin_verb=('build',))
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.263s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jone/robo_400/ros2_ws'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ros'
+[0.274s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower) by extension 'ros'
+[0.275s] DEBUG:colcon.colcon_core.package_identification:Package 'src/line_follower' with type 'ros.ament_python' and name 'line_follower'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_package' with type 'ros.ament_python' and name 'my_package'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_srvcli' with type 'ros.ament_python' and name 'py_srvcli'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) ignored
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) ignored
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) ignored
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.303s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/jone/robo_400/ros2_ws/install
+[0.304s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 310 installed packages in /opt/ros/humble
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.335s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtlesim' is in: /home/jone/robo_400/ros2_ws/install/turtlesim, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlesim
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.336s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jone/robo_400/ros2_ws/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jone/robo_400/ros2_ws/install/cpp_pubsub', 'merge_install': False, 'path': '/home/jone/robo_400/ros2_ws/src/cpp_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'line_follower' build argument 'cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'line_follower' build argument 'cmake_target' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'line_follower' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'line_follower' build argument 'cmake_clean_cache' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'line_follower' build argument 'cmake_clean_first' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'line_follower' build argument 'cmake_force_configure' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'line_follower' build argument 'ament_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'line_follower' build argument 'catkin_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'line_follower' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.337s] DEBUG:colcon.colcon_core.verb:Building package 'line_follower' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jone/robo_400/ros2_ws/build/line_follower', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jone/robo_400/ros2_ws/install/line_follower', 'merge_install': False, 'path': '/home/jone/robo_400/ros2_ws/src/line_follower', 'symlink_install': False, 'test_result_base': None}
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.337s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jone/robo_400/ros2_ws/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jone/robo_400/ros2_ws/install/my_package', 'merge_install': False, 'path': '/home/jone/robo_400/ros2_ws/src/my_package', 'symlink_install': False, 'test_result_base': None}
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.337s] DEBUG:colcon.colcon_core.verb:Building package 'py_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jone/robo_400/ros2_ws/build/py_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jone/robo_400/ros2_ws/install/py_srvcli', 'merge_install': False, 'path': '/home/jone/robo_400/ros2_ws/src/py_srvcli', 'symlink_install': False, 'test_result_base': None}
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.338s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jone/robo_400/ros2_ws/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jone/robo_400/ros2_ws/install/turtlesim', 'merge_install': False, 'path': '/home/jone/robo_400/ros2_ws/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.338s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.339s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.339s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jone/robo_400/ros2_ws/src/cpp_pubsub' with build type 'ament_cmake'
+[0.339s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jone/robo_400/ros2_ws/src/cpp_pubsub'
+[0.341s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.341s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.341s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.344s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jone/robo_400/ros2_ws/src/line_follower' with build type 'ament_python'
+[0.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_follower', 'ament_prefix_path')
+[0.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/line_follower/share/line_follower/hook/ament_prefix_path.ps1'
+[0.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jone/robo_400/ros2_ws/install/line_follower/share/line_follower/hook/ament_prefix_path.dsv'
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/line_follower/share/line_follower/hook/ament_prefix_path.sh'
+[0.345s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.345s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.348s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jone/robo_400/ros2_ws/src/my_package' with build type 'ament_python'
+[0.348s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'ament_prefix_path')
+[0.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/my_package/share/my_package/hook/ament_prefix_path.ps1'
+[0.349s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jone/robo_400/ros2_ws/install/my_package/share/my_package/hook/ament_prefix_path.dsv'
+[0.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/my_package/share/my_package/hook/ament_prefix_path.sh'
+[0.349s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.349s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.352s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jone/robo_400/ros2_ws/src/py_srvcli' with build type 'ament_python'
+[0.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'ament_prefix_path')
+[0.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.ps1'
+[0.352s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jone/robo_400/ros2_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.dsv'
+[0.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.sh'
+[0.353s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.353s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.356s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jone/robo_400/ros2_ws/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[0.356s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jone/robo_400/ros2_ws/src/ros_tutorials/turtlesim'
+[0.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jone/robo_400/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jone/robo_400/ros2_ws/install/py_srvcli:/home/jone/robo_400/ros2_ws/install/my_package:/home/jone/robo_400/ros2_ws/install/line_follower:/opt/ros/humble /usr/bin/cmake /home/jone/robo_400/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/jone/robo_400/ros2_ws/install/cpp_pubsub
+[0.551s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'line_follower' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.551s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jone/robo_400/ros2_ws/src/line_follower'
+[0.551s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.551s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.742s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jone/robo_400/ros2_ws/src/my_package'
+[0.742s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.742s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.933s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jone/robo_400/ros2_ws/src/py_srvcli'
+[0.933s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.933s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jone/robo_400/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jone/robo_400/ros2_ws/install/py_srvcli:/home/jone/robo_400/ros2_ws/install/my_package:/home/jone/robo_400/ros2_ws/install/line_follower:/opt/ros/humble /usr/bin/cmake /home/jone/robo_400/ros2_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/jone/robo_400/ros2_ws/install/turtlesim
+[0.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jone/robo_400/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jone/robo_400/ros2_ws/install/py_srvcli:/home/jone/robo_400/ros2_ws/install/my_package:/home/jone/robo_400/ros2_ws/install/line_follower:/opt/ros/humble /usr/bin/cmake /home/jone/robo_400/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/jone/robo_400/ros2_ws/install/cpp_pubsub
+[0.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jone/robo_400/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jone/robo_400/ros2_ws/install/py_srvcli:/home/jone/robo_400/ros2_ws/install/my_package:/home/jone/robo_400/ros2_ws/install/line_follower:/opt/ros/humble /usr/bin/cmake --build /home/jone/robo_400/ros2_ws/build/cpp_pubsub -- -j16 -l16
+[1.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jone/robo_400/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jone/robo_400/ros2_ws/install/py_srvcli:/home/jone/robo_400/ros2_ws/install/my_package:/home/jone/robo_400/ros2_ws/install/line_follower:/opt/ros/humble /usr/bin/cmake --build /home/jone/robo_400/ros2_ws/build/cpp_pubsub -- -j16 -l16
+[1.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jone/robo_400/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jone/robo_400/ros2_ws/install/py_srvcli:/home/jone/robo_400/ros2_ws/install/my_package:/home/jone/robo_400/ros2_ws/install/line_follower:/opt/ros/humble /usr/bin/cmake --install /home/jone/robo_400/ros2_ws/build/cpp_pubsub
+[1.034s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[1.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jone/robo_400/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jone/robo_400/ros2_ws/install/py_srvcli:/home/jone/robo_400/ros2_ws/install/my_package:/home/jone/robo_400/ros2_ws/install/line_follower:/opt/ros/humble /usr/bin/cmake --install /home/jone/robo_400/ros2_ws/build/cpp_pubsub
+[1.036s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/cpp_pubsub' for CMake module files
+[1.037s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/cpp_pubsub' for CMake config files
+[1.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[1.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[1.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[1.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[1.038s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/lib'
+[1.038s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/bin'
+[1.038s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[1.039s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/lib/python3.10/site-packages'
+[1.039s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/bin'
+[1.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[1.039s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[1.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[1.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[1.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[1.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jone/robo_400/ros2_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[1.042s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/cpp_pubsub' for CMake module files
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/cpp_pubsub' for CMake config files
+[1.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[1.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[1.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[1.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/lib'
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/bin'
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/lib/python3.10/site-packages'
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/bin'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[1.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[1.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[1.046s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jone/robo_400/ros2_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[1.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jone/robo_400/ros2_ws/build/my_package': PYTHONPATH=/home/jone/robo_400/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jone/robo_400/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/jone/robo_400/ros2_ws/build/my_package/build
+[1.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jone/robo_400/ros2_ws/build/py_srvcli': PYTHONPATH=/home/jone/robo_400/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jone/robo_400/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/jone/robo_400/ros2_ws/build/py_srvcli/build
+[1.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jone/robo_400/ros2_ws/build/line_follower': PYTHONPATH=/home/jone/robo_400/ros2_ws/build/line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jone/robo_400/ros2_ws/install/line_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/jone/robo_400/ros2_ws/build/line_follower/build
+[1.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jone/robo_400/ros2_ws/build/py_srvcli' returned '0': PYTHONPATH=/home/jone/robo_400/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jone/robo_400/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/jone/robo_400/ros2_ws/build/py_srvcli/build
+[1.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jone/robo_400/ros2_ws/src/py_srvcli': PYTHONPATH=/home/jone/robo_400/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jone/robo_400/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/jone/robo_400/ros2_ws/build/py_srvcli/build install --record /home/jone/robo_400/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data --force
+[1.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jone/robo_400/ros2_ws/build/my_package' returned '0': PYTHONPATH=/home/jone/robo_400/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jone/robo_400/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/jone/robo_400/ros2_ws/build/my_package/build
+[1.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jone/robo_400/ros2_ws/src/my_package': PYTHONPATH=/home/jone/robo_400/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jone/robo_400/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/jone/robo_400/ros2_ws/build/my_package/build install --record /home/jone/robo_400/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data --force
+[1.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jone/robo_400/ros2_ws/build/line_follower' returned '0': PYTHONPATH=/home/jone/robo_400/ros2_ws/build/line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jone/robo_400/ros2_ws/install/line_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/jone/robo_400/ros2_ws/build/line_follower/build
+[1.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jone/robo_400/ros2_ws/src/line_follower': PYTHONPATH=/home/jone/robo_400/ros2_ws/build/line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jone/robo_400/ros2_ws/install/line_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/line_follower build --build-base /home/jone/robo_400/ros2_ws/build/line_follower/build install --record /home/jone/robo_400/ros2_ws/build/line_follower/install.log --single-version-externally-managed install_data --force
+[1.827s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/my_package' for CMake module files
+[1.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jone/robo_400/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/jone/robo_400/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jone/robo_400/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/jone/robo_400/ros2_ws/build/my_package/build install --record /home/jone/robo_400/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data --force
+[1.828s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/my_package' for CMake config files
+[1.829s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/my_package/lib'
+[1.829s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/my_package/bin'
+[1.829s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/my_package/lib/pkgconfig/my_package.pc'
+[1.829s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/my_package/lib/python3.10/site-packages'
+[1.829s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'pythonpath')
+[1.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/my_package/share/my_package/hook/pythonpath.ps1'
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jone/robo_400/ros2_ws/install/my_package/share/my_package/hook/pythonpath.dsv'
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/my_package/share/my_package/hook/pythonpath.sh'
+[1.831s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/my_package/bin'
+[1.831s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[1.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/my_package/share/my_package/package.ps1'
+[1.832s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jone/robo_400/ros2_ws/install/my_package/share/my_package/package.dsv'
+[1.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/my_package/share/my_package/package.sh'
+[1.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/my_package/share/my_package/package.bash'
+[1.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/my_package/share/my_package/package.zsh'
+[1.833s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jone/robo_400/ros2_ws/install/my_package/share/colcon-core/packages/my_package)
+[1.834s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/py_srvcli' for CMake module files
+[1.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jone/robo_400/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/jone/robo_400/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jone/robo_400/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/jone/robo_400/ros2_ws/build/py_srvcli/build install --record /home/jone/robo_400/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data --force
+[1.835s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/py_srvcli' for CMake config files
+[1.835s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/py_srvcli/lib'
+[1.835s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/py_srvcli/bin'
+[1.835s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/py_srvcli/lib/pkgconfig/py_srvcli.pc'
+[1.835s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/py_srvcli/lib/python3.10/site-packages'
+[1.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'pythonpath')
+[1.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.ps1'
+[1.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jone/robo_400/ros2_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.dsv'
+[1.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.sh'
+[1.837s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/py_srvcli/bin'
+[1.837s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_srvcli)
+[1.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/py_srvcli/share/py_srvcli/package.ps1'
+[1.837s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jone/robo_400/ros2_ws/install/py_srvcli/share/py_srvcli/package.dsv'
+[1.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/py_srvcli/share/py_srvcli/package.sh'
+[1.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/py_srvcli/share/py_srvcli/package.bash'
+[1.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/py_srvcli/share/py_srvcli/package.zsh'
+[1.838s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jone/robo_400/ros2_ws/install/py_srvcli/share/colcon-core/packages/py_srvcli)
+[1.839s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/line_follower' for CMake module files
+[1.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jone/robo_400/ros2_ws/src/line_follower' returned '0': PYTHONPATH=/home/jone/robo_400/ros2_ws/build/line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jone/robo_400/ros2_ws/install/line_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/line_follower build --build-base /home/jone/robo_400/ros2_ws/build/line_follower/build install --record /home/jone/robo_400/ros2_ws/build/line_follower/install.log --single-version-externally-managed install_data --force
+[1.840s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/line_follower' for CMake config files
+[1.840s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/line_follower/lib'
+[1.841s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/line_follower/bin'
+[1.841s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/line_follower/lib/pkgconfig/line_follower.pc'
+[1.841s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/line_follower/lib/python3.10/site-packages'
+[1.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_follower', 'pythonpath')
+[1.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/line_follower/share/line_follower/hook/pythonpath.ps1'
+[1.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jone/robo_400/ros2_ws/install/line_follower/share/line_follower/hook/pythonpath.dsv'
+[1.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/line_follower/share/line_follower/hook/pythonpath.sh'
+[1.842s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/line_follower/bin'
+[1.842s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(line_follower)
+[1.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/line_follower/share/line_follower/package.ps1'
+[1.843s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jone/robo_400/ros2_ws/install/line_follower/share/line_follower/package.dsv'
+[1.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/line_follower/share/line_follower/package.sh'
+[1.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/line_follower/share/line_follower/package.bash'
+[1.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/line_follower/share/line_follower/package.zsh'
+[1.844s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jone/robo_400/ros2_ws/install/line_follower/share/colcon-core/packages/line_follower)
+[2.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jone/robo_400/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jone/robo_400/ros2_ws/install/py_srvcli:/home/jone/robo_400/ros2_ws/install/my_package:/home/jone/robo_400/ros2_ws/install/line_follower:/opt/ros/humble /usr/bin/cmake /home/jone/robo_400/ros2_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/jone/robo_400/ros2_ws/install/turtlesim
+[2.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jone/robo_400/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jone/robo_400/ros2_ws/install/py_srvcli:/home/jone/robo_400/ros2_ws/install/my_package:/home/jone/robo_400/ros2_ws/install/line_follower:/opt/ros/humble /usr/bin/cmake --build /home/jone/robo_400/ros2_ws/build/turtlesim -- -j16 -l16
+[2.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jone/robo_400/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jone/robo_400/ros2_ws/install/py_srvcli:/home/jone/robo_400/ros2_ws/install/my_package:/home/jone/robo_400/ros2_ws/install/line_follower:/opt/ros/humble /usr/bin/cmake --build /home/jone/robo_400/ros2_ws/build/turtlesim -- -j16 -l16
+[2.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jone/robo_400/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jone/robo_400/ros2_ws/install/py_srvcli:/home/jone/robo_400/ros2_ws/install/my_package:/home/jone/robo_400/ros2_ws/install/line_follower:/opt/ros/humble /usr/bin/cmake --install /home/jone/robo_400/ros2_ws/build/turtlesim
+[2.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[2.465s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/turtlesim' for CMake module files
+[2.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jone/robo_400/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jone/robo_400/ros2_ws/install/py_srvcli:/home/jone/robo_400/ros2_ws/install/my_package:/home/jone/robo_400/ros2_ws/install/line_follower:/opt/ros/humble /usr/bin/cmake --install /home/jone/robo_400/ros2_ws/build/turtlesim
+[2.466s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/turtlesim' for CMake config files
+[2.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[2.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[2.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jone/robo_400/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[2.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[2.468s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/turtlesim/lib'
+[2.468s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[2.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[2.469s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jone/robo_400/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[2.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[2.469s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/turtlesim/bin'
+[2.469s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[2.469s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/turtlesim/lib/python3.10/site-packages'
+[2.470s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/turtlesim/bin'
+[2.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/turtlesim/share/turtlesim/package.ps1'
+[2.470s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jone/robo_400/ros2_ws/install/turtlesim/share/turtlesim/package.dsv'
+[2.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/turtlesim/share/turtlesim/package.sh'
+[2.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/turtlesim/share/turtlesim/package.bash'
+[2.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/turtlesim/share/turtlesim/package.zsh'
+[2.471s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jone/robo_400/ros2_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[2.472s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[2.472s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/turtlesim' for CMake module files
+[2.473s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/turtlesim' for CMake config files
+[2.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[2.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[2.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jone/robo_400/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[2.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/turtlesim/lib'
+[2.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[2.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[2.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jone/robo_400/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[2.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jone/robo_400/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[2.476s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/turtlesim/bin'
+[2.476s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[2.477s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/turtlesim/lib/python3.10/site-packages'
+[2.477s] Level 1:colcon.colcon_core.environment:checking '/home/jone/robo_400/ros2_ws/install/turtlesim/bin'
+[2.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/turtlesim/share/turtlesim/package.ps1'
+[2.478s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jone/robo_400/ros2_ws/install/turtlesim/share/turtlesim/package.dsv'
+[2.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/turtlesim/share/turtlesim/package.sh'
+[2.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/turtlesim/share/turtlesim/package.bash'
+[2.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/jone/robo_400/ros2_ws/install/turtlesim/share/turtlesim/package.zsh'
+[2.479s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jone/robo_400/ros2_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[2.479s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.480s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.480s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.480s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.484s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.484s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.484s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.493s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.493s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jone/robo_400/ros2_ws/install/local_setup.ps1'
+[2.494s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jone/robo_400/ros2_ws/install/_local_setup_util_ps1.py'
+[2.495s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jone/robo_400/ros2_ws/install/setup.ps1'
+[2.496s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jone/robo_400/ros2_ws/install/local_setup.sh'
+[2.496s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jone/robo_400/ros2_ws/install/_local_setup_util_sh.py'
+[2.497s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jone/robo_400/ros2_ws/install/setup.sh'
+[2.498s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jone/robo_400/ros2_ws/install/local_setup.bash'
+[2.498s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jone/robo_400/ros2_ws/install/setup.bash'
+[2.499s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jone/robo_400/ros2_ws/install/local_setup.zsh'
+[2.499s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jone/robo_400/ros2_ws/install/setup.zsh'

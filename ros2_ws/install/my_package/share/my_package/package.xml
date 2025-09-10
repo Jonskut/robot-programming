@@ -1,10 +1,10 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>my_package</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="jone@todo.todo">jone</maintainer>
+  <description>Tutorial package for robo.400 course</description>
+  <maintainer email="jonatan.tevaniemi@tuni.fi">Jonatan Tevaniemi</maintainer>
   <license>Apache-2.0</license>
 
   <test_depend>ament_copyright</test_depend>

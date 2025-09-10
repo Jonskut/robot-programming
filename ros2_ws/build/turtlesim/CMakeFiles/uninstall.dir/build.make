@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jone/ros2_ws/src/ros_tutorials/turtlesim
+CMAKE_SOURCE_DIR = /home/jone/robo_400/ros2_ws/src/ros_tutorials/turtlesim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jone/ros2_ws/build/turtlesim
+CMAKE_BINARY_DIR = /home/jone/robo_400/ros2_ws/build/turtlesim
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/jone/ros2_ws/build/turtlesim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jone/ros2_ws/src/ros_tutorials/turtlesim /home/jone/ros2_ws/src/ros_tutorials/turtlesim /home/jone/ros2_ws/build/turtlesim /home/jone/ros2_ws/build/turtlesim /home/jone/ros2_ws/build/turtlesim/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jone/robo_400/ros2_ws/build/turtlesim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jone/robo_400/ros2_ws/src/ros_tutorials/turtlesim /home/jone/robo_400/ros2_ws/src/ros_tutorials/turtlesim /home/jone/robo_400/ros2_ws/build/turtlesim /home/jone/robo_400/ros2_ws/build/turtlesim /home/jone/robo_400/ros2_ws/build/turtlesim/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

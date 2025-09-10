@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jone/ros2_ws/src/ros_tutorials/turtlesim
+CMAKE_SOURCE_DIR = /home/jone/robo_400/ros2_ws/src/ros_tutorials/turtlesim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jone/ros2_ws/build/turtlesim
+CMAKE_BINARY_DIR = /home/jone/robo_400/ros2_ws/build/turtlesim
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jone/ros2_ws/build/turtlesim/CMakeFiles /home/jone/ros2_ws/build/turtlesim//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jone/robo_400/ros2_ws/build/turtlesim/CMakeFiles /home/jone/robo_400/ros2_ws/build/turtlesim//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jone/ros2_ws/build/turtlesim/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jone/robo_400/ros2_ws/build/turtlesim/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -315,17 +315,17 @@ turtlesim__rosidl_typesupport_cpp/fast:
 .PHONY : turtlesim__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_turtlesim
+# Target rules for targets named ament_cmake_python_symlink_turtlesim
 
 # Build rule for target.
-ament_cmake_python_copy_turtlesim: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_turtlesim
-.PHONY : ament_cmake_python_copy_turtlesim
+ament_cmake_python_symlink_turtlesim: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_turtlesim
+.PHONY : ament_cmake_python_symlink_turtlesim
 
 # fast build rule for target.
-ament_cmake_python_copy_turtlesim/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_turtlesim.dir/build.make CMakeFiles/ament_cmake_python_copy_turtlesim.dir/build
-.PHONY : ament_cmake_python_copy_turtlesim/fast
+ament_cmake_python_symlink_turtlesim/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_turtlesim.dir/build.make CMakeFiles/ament_cmake_python_symlink_turtlesim.dir/build
+.PHONY : ament_cmake_python_symlink_turtlesim/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_turtlesim_egg
@@ -2247,7 +2247,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_turtlesim_egg"
-	@echo "... ament_cmake_python_copy_turtlesim"
+	@echo "... ament_cmake_python_symlink_turtlesim"
 	@echo "... turtlesim"
 	@echo "... turtlesim__cpp"
 	@echo "... turtlesim__py"

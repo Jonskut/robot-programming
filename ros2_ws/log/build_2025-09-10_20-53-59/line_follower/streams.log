@@ -1,0 +1,39 @@
+[0.887s] Invoking command in '/home/jone/robo_400/ros2_ws/build/line_follower': PYTHONPATH=/home/jone/robo_400/ros2_ws/build/line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jone/robo_400/ros2_ws/install/line_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/jone/robo_400/ros2_ws/build/line_follower/build
+[1.088s] running develop
+[1.213s] Removing /home/jone/robo_400/ros2_ws/install/line_follower/lib/python3.10/site-packages/line-follower.egg-link (link to .)
+[1.249s] Invoked command in '/home/jone/robo_400/ros2_ws/build/line_follower' returned '0': PYTHONPATH=/home/jone/robo_400/ros2_ws/build/line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jone/robo_400/ros2_ws/install/line_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/jone/robo_400/ros2_ws/build/line_follower/build
+[1.250s] Invoking command in '/home/jone/robo_400/ros2_ws/src/line_follower': PYTHONPATH=/home/jone/robo_400/ros2_ws/build/line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jone/robo_400/ros2_ws/install/line_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/line_follower build --build-base /home/jone/robo_400/ros2_ws/build/line_follower/build install --record /home/jone/robo_400/ros2_ws/build/line_follower/install.log --single-version-externally-managed install_data --force
+[1.435s] running egg_info
+[1.436s] writing ../../build/line_follower/line_follower.egg-info/PKG-INFO
+[1.436s] writing dependency_links to ../../build/line_follower/line_follower.egg-info/dependency_links.txt
+[1.436s] writing entry points to ../../build/line_follower/line_follower.egg-info/entry_points.txt
+[1.436s] writing requirements to ../../build/line_follower/line_follower.egg-info/requires.txt
+[1.436s] writing top-level names to ../../build/line_follower/line_follower.egg-info/top_level.txt
+[1.438s] reading manifest file '../../build/line_follower/line_follower.egg-info/SOURCES.txt'
+[1.438s] adding license file 'LICENSE'
+[1.439s] writing manifest file '../../build/line_follower/line_follower.egg-info/SOURCES.txt'
+[1.439s] running build
+[1.439s] running build_py
+[1.440s] creating /home/jone/robo_400/ros2_ws/build/line_follower/build
+[1.440s] creating /home/jone/robo_400/ros2_ws/build/line_follower/build/lib
+[1.440s] creating /home/jone/robo_400/ros2_ws/build/line_follower/build/lib/line_follower
+[1.440s] copying line_follower/line_follower_node.py -> /home/jone/robo_400/ros2_ws/build/line_follower/build/lib/line_follower
+[1.440s] copying line_follower/__init__.py -> /home/jone/robo_400/ros2_ws/build/line_follower/build/lib/line_follower
+[1.440s] running install
+[1.440s] running install_lib
+[1.440s] creating /home/jone/robo_400/ros2_ws/install/line_follower/lib/python3.10/site-packages/line_follower
+[1.440s] copying /home/jone/robo_400/ros2_ws/build/line_follower/build/lib/line_follower/line_follower_node.py -> /home/jone/robo_400/ros2_ws/install/line_follower/lib/python3.10/site-packages/line_follower
+[1.440s] copying /home/jone/robo_400/ros2_ws/build/line_follower/build/lib/line_follower/__init__.py -> /home/jone/robo_400/ros2_ws/install/line_follower/lib/python3.10/site-packages/line_follower
+[1.441s] byte-compiling /home/jone/robo_400/ros2_ws/install/line_follower/lib/python3.10/site-packages/line_follower/line_follower_node.py to line_follower_node.cpython-310.pyc
+[1.441s] byte-compiling /home/jone/robo_400/ros2_ws/install/line_follower/lib/python3.10/site-packages/line_follower/__init__.py to __init__.cpython-310.pyc
+[1.441s] running install_data
+[1.441s] copying package.xml -> /home/jone/robo_400/ros2_ws/install/line_follower/share/ament_index/resource_index/packages
+[1.441s] copying package.xml -> /home/jone/robo_400/ros2_ws/install/line_follower/share/line_follower
+[1.442s] copying launch/line_follower.launch.py -> /home/jone/robo_400/ros2_ws/install/line_follower/share/line_follower/launch
+[1.442s] copying worlds/line_follower.sdf -> /home/jone/robo_400/ros2_ws/install/line_follower/share/line_follower/worlds
+[1.442s] running install_egg_info
+[1.443s] Copying ../../build/line_follower/line_follower.egg-info to /home/jone/robo_400/ros2_ws/install/line_follower/lib/python3.10/site-packages/line_follower-0.0.0-py3.10.egg-info
+[1.444s] running install_scripts
+[1.463s] Installing line_follower_node script to /home/jone/robo_400/ros2_ws/install/line_follower/lib/line_follower
+[1.463s] writing list of installed files to '/home/jone/robo_400/ros2_ws/build/line_follower/install.log'
+[1.496s] Invoked command in '/home/jone/robo_400/ros2_ws/src/line_follower' returned '0': PYTHONPATH=/home/jone/robo_400/ros2_ws/build/line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jone/robo_400/ros2_ws/install/line_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/line_follower build --build-base /home/jone/robo_400/ros2_ws/build/line_follower/build install --record /home/jone/robo_400/ros2_ws/build/line_follower/install.log --single-version-externally-managed install_data --force

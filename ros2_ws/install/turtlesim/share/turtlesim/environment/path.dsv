@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/jone/robo_400/ros2_ws/build/turtlesim/ament_cmake_environment_hooks/path.dsv
