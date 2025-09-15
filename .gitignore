@@ -4,3 +4,4 @@ exercise_answers/*.png
 gazebo_worlds/bags/*
 ros2_ws/bag*
 ros2_ws/log/*
+gazebo_worlds/segmentation_data/*
