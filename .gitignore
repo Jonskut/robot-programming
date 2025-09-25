@@ -5,3 +5,12 @@ gazebo_worlds/bags/*
 ros2_ws/bag*
 ros2_ws/log/*
 gazebo_worlds/segmentation_data/*
+turtlebot3_ws/build/*
+turtlebot3_ws/install/*
+turtlebot3_ws/log/*
+turtlebot3_ws/src/DynamixelSDK
+turtlebot3_ws/src/turtlebot3
+turtlebot3_ws/src/turtlebot3_msgs
+turtlebot3_ws/src/turtlebot3_simulations
+
+

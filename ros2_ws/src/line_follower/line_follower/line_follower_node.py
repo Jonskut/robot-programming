@@ -19,7 +19,7 @@ class LineFollower(Node):
         # Subscriber to camera
         self.subscription = self.create_subscription(
             Image,
-            '/world/line_follower/model/vehicle_blue/link/rgb_camera/sensor/camera_sensor/image',  # Make sure this matches your bridge remap
+            '/world/line_follower/model/vehicle_blue/link/rgb_camera/sensor/camera_sensor/image',
             self.image_callback,
             10
         )
