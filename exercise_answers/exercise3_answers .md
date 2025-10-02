@@ -1,5 +1,7 @@
 **Task 1**
 
+![image-20251002150448828](/home/jone/snap/typora/106/.config/Typora/typora-user-images/image-20251002150448828.png)
+
 3 
 
 	- ros2 node list, ros2 topic list -t
@@ -30,6 +32,8 @@ ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.2, y: 0.0, z: 0.
 **Task 3**
 
 ~/turtlebot3_ws/src/
+
+export TURTLEBOT3_MODEL=burger
 
 ros2 launch turtlebot3_gazebo empty_world.launch.py
 
@@ -66,17 +70,31 @@ motion_control_2.py has pure pursuit!
 
 ONLY motion_control_2.py has error publishing
 
-ros2 bag record /odom
+ros2 bag record /odom -o <output>
 
-python3 rosbag_extract_pose.py
+python3 rosbag_extract_path.py
 
-python3 motion_control_2.py replay path_bag_squarish.csv
+python3 motion_control_2.py replay path_bag_squarish.csv #lookahead_distance = ?
+
+python3 motion_control_2.py replay path_random.csv #lookahead_distance = 0.1
+
+python3 motion_control_2.py replay path_bag_circle.csv #lookahead_distance = 0.3
+
+
+
+
 
 ros2 run turtlebot3_teleop teleop_keyboard
 
 ros2 run rqt_plot rqt_plot
 
 
+
+STOP: 
+
+ros2 topic pub --once /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"
+
+python3 motion_control_2.py replay path_squarish.csv --record bag_pp_squarish
 
 python3 visualize_path.py path_circle.csv path_bag_pp_circle.csv
 

@@ -7,7 +7,7 @@ import sys
 import os
 
 if len(sys.argv) < 2:
-    print("Usage: python3 rosbag_extract_pose.py <bag_folder>")
+    print("Usage: python3 rosbag_extract_path.py <bag_folder>")
     sys.exit(1)
 
 BAG_PATH = sys.argv[1].rstrip('/')
