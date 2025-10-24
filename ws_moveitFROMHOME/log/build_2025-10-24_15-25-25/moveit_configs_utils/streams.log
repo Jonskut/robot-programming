@@ -1,0 +1,20 @@
+[0.457s] Invoking command in '/home/jone/ws_moveit/src/moveit2/moveit_configs_utils': AMENT_PREFIX_PATH=/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jone/ws_moveit/install/srdfdom LD_LIBRARY_PATH=/home/jone/ws_moveit/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jone/ws_moveit/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jone/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/jone/ws_moveit/build/moveit_configs_utils/build install --record /home/jone/ws_moveit/build/moveit_configs_utils/install.log --single-version-externally-managed install_data
+[0.631s] running egg_info
+[0.631s] writing ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/PKG-INFO
+[0.634s] writing dependency_links to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/dependency_links.txt
+[0.634s] writing entry points to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/entry_points.txt
+[0.634s] writing requirements to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/requires.txt
+[0.634s] writing top-level names to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/top_level.txt
+[0.636s] reading manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[0.637s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[0.637s] running build
+[0.637s] running build_py
+[0.637s] running install
+[0.638s] running install_lib
+[0.639s] running install_data
+[0.639s] running install_egg_info
+[0.641s] removing '/home/jone/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils-2.5.9-py3.10.egg-info' (and everything under it)
+[0.641s] Copying ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info to /home/jone/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils-2.5.9-py3.10.egg-info
+[0.642s] running install_scripts
+[0.657s] writing list of installed files to '/home/jone/ws_moveit/build/moveit_configs_utils/install.log'
+[0.675s] Invoked command in '/home/jone/ws_moveit/src/moveit2/moveit_configs_utils' returned '0': AMENT_PREFIX_PATH=/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jone/ws_moveit/install/srdfdom LD_LIBRARY_PATH=/home/jone/ws_moveit/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jone/ws_moveit/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jone/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/jone/ws_moveit/build/moveit_configs_utils/build install --record /home/jone/ws_moveit/build/moveit_configs_utils/install.log --single-version-externally-managed install_data

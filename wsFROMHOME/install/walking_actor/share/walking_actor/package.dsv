@@ -1,0 +1,8 @@
+source;share/walking_actor/hook/cmake_prefix_path.ps1
+source;share/walking_actor/hook/cmake_prefix_path.dsv
+source;share/walking_actor/hook/cmake_prefix_path.sh
+source;share/walking_actor/local_setup.bash
+source;share/walking_actor/local_setup.dsv
+source;share/walking_actor/local_setup.ps1
+source;share/walking_actor/local_setup.sh
+source;share/walking_actor/local_setup.zsh

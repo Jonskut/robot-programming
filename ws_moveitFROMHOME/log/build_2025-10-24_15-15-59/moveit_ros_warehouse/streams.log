@@ -1,0 +1,80 @@
+[0.016s] Invoking command in '/home/jone/ws_moveit/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_planning:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/moveit_configs_utils:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common:/home/jone/ws_moveit/install/launch_param_builder CMAKE_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_planning:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common LD_LIBRARY_PATH=/home/jone/ws_moveit/install/moveit_ros_planning/lib:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jone/ws_moveit/install/moveit_core/lib:/home/jone/ws_moveit/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/jone/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jone/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages /usr/bin/cmake --build /home/jone/ws_moveit/build/moveit_ros_warehouse -- -j16 -l16
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target moveit_warehouse[0m
+[0.069s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/constraints_storage.cpp.o[0m
+[0.069s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/planning_scene_world_storage.cpp.o[0m
+[0.069s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/planning_scene_storage.cpp.o[0m
+[0.069s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/trajectory_constraints_storage.cpp.o[0m
+[0.069s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/moveit_message_storage.cpp.o[0m
+[0.069s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/state_storage.cpp.o[0m
+[9.308s] [ 35%] [32m[1mLinking CXX shared library libmoveit_warehouse.so[0m
+[9.651s] [ 40%] Built target moveit_warehouse
+[9.673s] [ 65%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_services.dir/src/warehouse_services.cpp.o[0m
+[9.673s] [ 65%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_import_from_text.dir/src/import_from_text.cpp.o[0m
+[9.673s] [ 65%] [32mBuilding CXX object CMakeFiles/moveit_save_to_warehouse.dir/src/save_to_warehouse.cpp.o[0m
+[9.673s] [ 65%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_save_as_text.dir/src/save_as_text.cpp.o[0m
+[9.673s] [ 65%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_broadcast.dir/src/broadcast.cpp.o[0m
+[9.673s] [ 70%] [32mBuilding CXX object CMakeFiles/moveit_init_demo_warehouse.dir/src/initialize_demo_db.cpp.o[0m
+[18.307s] [ 75%] [32m[1mLinking CXX executable moveit_warehouse_services[0m
+[18.583s] [ 75%] Built target moveit_warehouse_services
+[21.217s] [ 80%] [32m[1mLinking CXX executable moveit_warehouse_save_as_text[0m
+[21.327s] [ 85%] [32m[1mLinking CXX executable moveit_init_demo_warehouse[0m
+[21.330s] [ 90%] [32m[1mLinking CXX executable moveit_warehouse_broadcast[0m
+[21.621s] [ 90%] Built target moveit_warehouse_save_as_text
+[21.627s] [ 90%] Built target moveit_warehouse_broadcast
+[21.686s] [ 90%] Built target moveit_init_demo_warehouse
+[22.019s] [ 95%] [32m[1mLinking CXX executable moveit_warehouse_import_from_text[0m
+[22.296s] [ 95%] Built target moveit_warehouse_import_from_text
+[31.235s] [100%] [32m[1mLinking CXX executable moveit_save_to_warehouse[0m
+[31.562s] [100%] Built target moveit_save_to_warehouse
+[31.572s] Invoked command in '/home/jone/ws_moveit/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_planning:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/moveit_configs_utils:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common:/home/jone/ws_moveit/install/launch_param_builder CMAKE_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_planning:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common LD_LIBRARY_PATH=/home/jone/ws_moveit/install/moveit_ros_planning/lib:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jone/ws_moveit/install/moveit_core/lib:/home/jone/ws_moveit/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/jone/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jone/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages /usr/bin/cmake --build /home/jone/ws_moveit/build/moveit_ros_warehouse -- -j16 -l16
+[31.574s] Invoking command in '/home/jone/ws_moveit/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_planning:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/moveit_configs_utils:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common:/home/jone/ws_moveit/install/launch_param_builder CMAKE_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_planning:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common LD_LIBRARY_PATH=/home/jone/ws_moveit/install/moveit_ros_planning/lib:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jone/ws_moveit/install/moveit_core/lib:/home/jone/ws_moveit/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/jone/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jone/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages /usr/bin/cmake --install /home/jone/ws_moveit/build/moveit_ros_warehouse
+[31.580s] -- Install configuration: "Release"
+[31.580s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse
+[31.582s] -- Set runtime path of "/home/jone/ws_moveit/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse" to ""
+[31.582s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast
+[31.583s] -- Set runtime path of "/home/jone/ws_moveit/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast" to ""
+[31.583s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text
+[31.584s] -- Set runtime path of "/home/jone/ws_moveit/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text" to ""
+[31.584s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text
+[31.584s] -- Set runtime path of "/home/jone/ws_moveit/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text" to ""
+[31.584s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse
+[31.584s] -- Set runtime path of "/home/jone/ws_moveit/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse" to ""
+[31.585s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services
+[31.585s] -- Set runtime path of "/home/jone/ws_moveit/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services" to ""
+[31.585s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/include
+[31.585s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/include/moveit
+[31.585s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/include/moveit/warehouse
+[31.586s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/include/moveit/warehouse/warehouse_connector.h
+[31.586s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/include/moveit/warehouse/constraints_storage.h
+[31.586s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/include/moveit/warehouse/planning_scene_storage.h
+[31.586s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/include/moveit/warehouse/trajectory_constraints_storage.h
+[31.586s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/include/moveit/warehouse/state_storage.h
+[31.586s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/include/moveit/warehouse/moveit_message_storage.h
+[31.586s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/include/moveit/warehouse/planning_scene_world_storage.h
+[31.586s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/include/moveit_warehouse_export.h
+[31.586s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.5.9
+[31.588s] -- Set runtime path of "/home/jone/ws_moveit/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.5.9" to ""
+[31.588s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so
+[31.588s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.sh
+[31.588s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.dsv
+[31.588s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/share/ament_index/resource_index/package_run_dependencies/moveit_ros_warehouse
+[31.588s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/share/ament_index/resource_index/parent_prefix_path/moveit_ros_warehouse
+[31.589s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.sh
+[31.589s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.dsv
+[31.589s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.sh
+[31.589s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.dsv
+[31.589s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.bash
+[31.590s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.sh
+[31.590s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.zsh
+[31.590s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.dsv
+[31.590s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.dsv
+[31.590s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/share/ament_index/resource_index/packages/moveit_ros_warehouse
+[31.591s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/export_moveit_ros_warehouseExport.cmake
+[31.591s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/export_moveit_ros_warehouseExport-release.cmake
+[31.591s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake
+[31.591s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_targets-extras.cmake
+[31.592s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.592s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake
+[31.592s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig-version.cmake
+[31.592s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.xml
+[31.594s] Invoked command in '/home/jone/ws_moveit/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_planning:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/moveit_configs_utils:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common:/home/jone/ws_moveit/install/launch_param_builder CMAKE_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_planning:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common LD_LIBRARY_PATH=/home/jone/ws_moveit/install/moveit_ros_planning/lib:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jone/ws_moveit/install/moveit_core/lib:/home/jone/ws_moveit/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/jone/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jone/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages /usr/bin/cmake --install /home/jone/ws_moveit/build/moveit_ros_warehouse

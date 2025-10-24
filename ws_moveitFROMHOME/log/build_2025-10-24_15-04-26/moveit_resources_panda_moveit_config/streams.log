@@ -1,0 +1,18 @@
+[0.036s] Invoking command in '/home/jone/ws_moveit/build/moveit_resources_panda_moveit_config': AMENT_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake /home/jone/ws_moveit/src/moveit_resources/panda_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config
+[0.089s] -- The C compiler identification is GNU 11.4.0
+[0.148s] -- The CXX compiler identification is GNU 11.4.0
+[0.157s] -- Detecting C compiler ABI info
+[0.221s] -- Detecting C compiler ABI info - done
+[0.231s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.231s] -- Detecting C compile features
+[0.231s] -- Detecting C compile features - done
+[0.234s] -- Detecting CXX compiler ABI info
+[0.303s] -- Detecting CXX compiler ABI info - done
+[0.308s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.309s] -- Detecting CXX compile features
+[0.309s] -- Detecting CXX compile features - done
+[0.312s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.438s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.568s] -- Configuring done
+[0.570s] -- Generating done
+[0.572s] -- Build files have been written to: /home/jone/ws_moveit/build/moveit_resources_panda_moveit_config

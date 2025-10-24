@@ -1,0 +1,85 @@
+[0.019s] Invoking command in '/home/jone/ws_moveit/build/moveit_visual_tools': AMENT_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_planning:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/moveit_configs_utils:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common:/home/jone/ws_moveit/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_planning:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jone/ws_moveit/install/moveit_ros_planning/lib:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jone/ws_moveit/install/moveit_core/lib:/home/jone/ws_moveit/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/jone/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jone/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jone/ws_moveit/src/moveit_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jone/ws_moveit/install/moveit_visual_tools
+[0.090s] -- The C compiler identification is GNU 11.4.0
+[0.151s] -- The CXX compiler identification is GNU 11.4.0
+[0.159s] -- Detecting C compiler ABI info
+[0.237s] -- Detecting C compiler ABI info - done
+[0.243s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.243s] -- Detecting C compile features
+[0.244s] -- Detecting C compile features - done
+[0.246s] -- Detecting CXX compiler ABI info
+[0.333s] -- Detecting CXX compiler ABI info - done
+[0.340s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.340s] -- Detecting CXX compile features
+[0.341s] -- Detecting CXX compile features - done
+[0.342s] -- Found moveit_common: 2.5.9 (/home/jone/ws_moveit/install/moveit_common/share/moveit_common/cmake)
+[0.350s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.507s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.696s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[0.707s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.753s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.760s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.770s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.783s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.802s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.841s] -- Found graph_msgs: 0.2.0 (/opt/ros/humble/share/graph_msgs/cmake)
+[0.863s] -- Found moveit_core: 2.5.9 (/home/jone/ws_moveit/install/moveit_core/share/moveit_core/cmake)
+[1.109s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.166s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.217s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.222s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.322s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.353s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.404s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.416s] -- Found Threads: TRUE  
+[1.464s] -- Found rclcpp_lifecycle: 16.0.15 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.490s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.593s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.661s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.661s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.915s] -- Found moveit_ros_planning: 2.5.9 (/home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[1.920s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.944s] -- Found rviz_visual_tools: 4.1.4 (/opt/ros/humble/share/rviz_visual_tools/cmake)
+[1.995s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[2.011s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.014s] -- Found OGRE
+[2.015s] --   static     : OFF
+[2.015s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.015s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.015s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.015s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.015s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[2.015s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.015s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[2.015s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.015s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.015s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.015s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.046s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.053s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[2.182s] -- Found X11: /usr/include   
+[2.183s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.298s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.298s] -- Looking for gethostbyname
+[2.408s] -- Looking for gethostbyname - found
+[2.408s] -- Looking for connect
+[2.692s] -- Looking for connect - found
+[2.696s] -- Looking for remove
+[3.082s] -- Looking for remove - found
+[3.082s] -- Looking for shmat
+[3.499s] -- Looking for shmat - found
+[3.500s] -- Looking for IceConnectionNumber in ICE
+[4.129s] -- Looking for IceConnectionNumber in ICE - found
+[4.855s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.941s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.950s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.953s] -- Added test 'lint_cmake' to check CMake code style
+[4.960s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.965s] -- Added test 'xmllint' to check XML markup files
+[4.974s] -- Configuring done
+[5.240s] -- Generating done
+[5.274s] -- Build files have been written to: /home/jone/ws_moveit/build/moveit_visual_tools
+[5.360s] Invoked command in '/home/jone/ws_moveit/build/moveit_visual_tools' returned '0': AMENT_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_planning:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/moveit_configs_utils:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common:/home/jone/ws_moveit/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_planning:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jone/ws_moveit/install/moveit_ros_planning/lib:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jone/ws_moveit/install/moveit_core/lib:/home/jone/ws_moveit/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/jone/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jone/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jone/ws_moveit/src/moveit_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jone/ws_moveit/install/moveit_visual_tools
+[5.361s] Invoking command in '/home/jone/ws_moveit/build/moveit_visual_tools': AMENT_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_planning:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/moveit_configs_utils:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common:/home/jone/ws_moveit/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_planning:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jone/ws_moveit/install/moveit_ros_planning/lib:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jone/ws_moveit/install/moveit_core/lib:/home/jone/ws_moveit/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/jone/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jone/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jone/ws_moveit/build/moveit_visual_tools -- -j16 -l16
+[5.636s] [ 16%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o[0m
+[5.650s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o[0m
+[5.657s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o[0m

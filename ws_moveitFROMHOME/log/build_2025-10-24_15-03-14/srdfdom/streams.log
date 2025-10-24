@@ -1,0 +1,27 @@
+[0.015s] Invoking command in '/home/jone/ws_moveit/build/srdfdom': /usr/bin/cmake /home/jone/ws_moveit/src/srdfdom -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jone/ws_moveit/install/srdfdom
+[0.182s] -- The CXX compiler identification is GNU 11.4.0
+[0.182s] -- Detecting CXX compiler ABI info
+[0.211s] -- Detecting CXX compiler ABI info - done
+[0.217s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.218s] -- Detecting CXX compile features
+[0.218s] -- Detecting CXX compile features - done
+[0.235s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[0.264s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[0.264s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.264s]   has asked CMake to find a package configuration file provided by
+[0.264s]   "ament_cmake", but CMake did not find one.
+[0.264s] 
+[0.265s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.265s]   any of the following names:
+[0.265s] 
+[0.265s]     ament_cmakeConfig.cmake
+[0.265s]     ament_cmake-config.cmake
+[0.265s] 
+[0.265s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.265s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.265s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.265s]   has been installed.
+[0.265s] 
+[0.265s] [0m
+[0.265s] -- Configuring incomplete, errors occurred!
+[0.265s] See also "/home/jone/ws_moveit/build/srdfdom/CMakeFiles/CMakeOutput.log".

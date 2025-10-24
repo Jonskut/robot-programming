@@ -1,0 +1,22 @@
+[1.584s] Invoking command in '/home/jone/turtlebot3_ws/build/turtlebot3_example': CMAKE_PREFIX_PATH=/home/jone/turtlebot3_ws/install/turtlebot3_msgs:/home/jone/turtlebot3_ws/install/turtlebot3:/home/jone/turtlebot3_ws/install/turtlebot3_bringup:/home/jone/turtlebot3_ws/install/turtlebot3_node:/home/jone/turtlebot3_ws/install/turtlebot3_navigation2:/home/jone/turtlebot3_ws/install/turtlebot3_description:/home/jone/turtlebot3_ws/install/turtlebot3_cartographer:/home/jone/turtlebot3_ws/install/dynamixel_sdk_examples:/home/jone/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/jone/turtlebot3_ws/install/dynamixel_sdk PYTHONPATH=/home/jone/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jone/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jone/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data
+[2.218s] running develop
+[2.640s] running egg_info
+[2.640s] writing turtlebot3_example.egg-info/PKG-INFO
+[2.641s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[2.642s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[2.642s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[2.642s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[2.648s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[2.650s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[2.653s] running build_ext
+[2.653s] Creating /home/jone/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[2.655s] Installing turtlebot3_absolute_move script to /home/jone/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.656s] Installing turtlebot3_interactive_marker script to /home/jone/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.656s] Installing turtlebot3_obstacle_detection script to /home/jone/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.657s] Installing turtlebot3_patrol_client script to /home/jone/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.657s] Installing turtlebot3_patrol_server script to /home/jone/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.657s] Installing turtlebot3_relative_move script to /home/jone/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.658s] 
+[2.658s] Installed /home/jone/turtlebot3_ws/build/turtlebot3_example
+[2.659s] running symlink_data
+[2.721s] Invoked command in '/home/jone/turtlebot3_ws/build/turtlebot3_example' returned '0': CMAKE_PREFIX_PATH=/home/jone/turtlebot3_ws/install/turtlebot3_msgs:/home/jone/turtlebot3_ws/install/turtlebot3:/home/jone/turtlebot3_ws/install/turtlebot3_bringup:/home/jone/turtlebot3_ws/install/turtlebot3_node:/home/jone/turtlebot3_ws/install/turtlebot3_navigation2:/home/jone/turtlebot3_ws/install/turtlebot3_description:/home/jone/turtlebot3_ws/install/turtlebot3_cartographer:/home/jone/turtlebot3_ws/install/dynamixel_sdk_examples:/home/jone/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/jone/turtlebot3_ws/install/dynamixel_sdk PYTHONPATH=/home/jone/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jone/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jone/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data

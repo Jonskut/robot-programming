@@ -1,0 +1,2 @@
+Invoking command in '/home/jone/ws_moveit/build/moveit_common': /usr/bin/cmake /home/jone/ws_moveit/src/moveit2/moveit_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jone/ws_moveit/install/moveit_common
+Invoked command in '/home/jone/ws_moveit/build/moveit_common' returned '1': /usr/bin/cmake /home/jone/ws_moveit/src/moveit2/moveit_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jone/ws_moveit/install/moveit_common

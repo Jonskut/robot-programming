@@ -1,0 +1,36 @@
+[0.017s] Invoking command in '/home/jone/ws_moveit/build/moveit_ros_benchmarks': AMENT_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_warehouse:/home/jone/ws_moveit/install/moveit_ros_planning:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/moveit_configs_utils:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common:/home/jone/ws_moveit/install/launch_param_builder CMAKE_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_warehouse:/home/jone/ws_moveit/install/moveit_ros_planning:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common LD_LIBRARY_PATH=/home/jone/ws_moveit/install/moveit_ros_warehouse/lib:/home/jone/ws_moveit/install/moveit_ros_planning/lib:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jone/ws_moveit/install/moveit_core/lib:/home/jone/ws_moveit/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/jone/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jone/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages /usr/bin/cmake /home/jone/ws_moveit/src/moveit2/moveit_ros/benchmarks -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jone/ws_moveit/install/moveit_ros_benchmarks
+[0.111s] -- The C compiler identification is GNU 11.4.0
+[0.156s] -- The CXX compiler identification is GNU 11.4.0
+[0.165s] -- Detecting C compiler ABI info
+[0.224s] -- Detecting C compiler ABI info - done
+[0.229s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.229s] -- Detecting C compile features
+[0.230s] -- Detecting C compile features - done
+[0.233s] -- Detecting CXX compiler ABI info
+[0.300s] -- Detecting CXX compiler ABI info - done
+[0.305s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.305s] -- Detecting CXX compile features
+[0.306s] -- Detecting CXX compile features - done
+[0.308s] -- Found moveit_common: 2.5.9 (/home/jone/ws_moveit/install/moveit_common/share/moveit_common/cmake)
+[0.320s] [31mCMake Error at /home/jone/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake:32 (find_package):
+[0.321s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.321s]   has asked CMake to find a package configuration file provided by
+[0.321s]   "ament_cmake", but CMake did not find one.
+[0.321s] 
+[0.321s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.321s]   any of the following names:
+[0.321s] 
+[0.321s]     ament_cmakeConfig.cmake
+[0.321s]     ament_cmake-config.cmake
+[0.321s] 
+[0.321s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.321s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.321s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.321s]   has been installed.
+[0.321s] Call Stack (most recent call first):
+[0.321s]   CMakeLists.txt:8 (moveit_package)
+[0.321s] 
+[0.321s] [0m
+[0.321s] -- Configuring incomplete, errors occurred!
+[0.321s] See also "/home/jone/ws_moveit/build/moveit_ros_benchmarks/CMakeFiles/CMakeOutput.log".
+[0.323s] Invoked command in '/home/jone/ws_moveit/build/moveit_ros_benchmarks' returned '1': AMENT_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_warehouse:/home/jone/ws_moveit/install/moveit_ros_planning:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/moveit_configs_utils:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common:/home/jone/ws_moveit/install/launch_param_builder CMAKE_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_warehouse:/home/jone/ws_moveit/install/moveit_ros_planning:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common LD_LIBRARY_PATH=/home/jone/ws_moveit/install/moveit_ros_warehouse/lib:/home/jone/ws_moveit/install/moveit_ros_planning/lib:/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jone/ws_moveit/install/moveit_core/lib:/home/jone/ws_moveit/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/jone/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jone/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages /usr/bin/cmake /home/jone/ws_moveit/src/moveit2/moveit_ros/benchmarks -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jone/ws_moveit/install/moveit_ros_benchmarks

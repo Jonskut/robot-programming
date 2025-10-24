@@ -1,0 +1,49 @@
+[0.600s] Invoking command in '/home/jone/ws_moveit/src/launch_param_builder': PYTHONPATH=/home/jone/ws_moveit/build/launch_param_builder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_param_builder build --build-base /home/jone/ws_moveit/build/launch_param_builder/build install --record /home/jone/ws_moveit/build/launch_param_builder/install.log --single-version-externally-managed install_data
+[0.800s] running egg_info
+[0.800s] creating ../../build/launch_param_builder/launch_param_builder.egg-info
+[0.801s] writing ../../build/launch_param_builder/launch_param_builder.egg-info/PKG-INFO
+[0.801s] writing dependency_links to ../../build/launch_param_builder/launch_param_builder.egg-info/dependency_links.txt
+[0.801s] writing entry points to ../../build/launch_param_builder/launch_param_builder.egg-info/entry_points.txt
+[0.801s] writing requirements to ../../build/launch_param_builder/launch_param_builder.egg-info/requires.txt
+[0.801s] writing top-level names to ../../build/launch_param_builder/launch_param_builder.egg-info/top_level.txt
+[0.801s] writing manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[0.803s] reading manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[0.803s] adding license file 'LICENSE'
+[0.804s] writing manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[0.804s] running build
+[0.804s] running build_py
+[0.804s] creating /home/jone/ws_moveit/build/launch_param_builder/build
+[0.804s] creating /home/jone/ws_moveit/build/launch_param_builder/build/lib
+[0.804s] creating /home/jone/ws_moveit/build/launch_param_builder/build/lib/launch_param_builder
+[0.804s] copying launch_param_builder/__init__.py -> /home/jone/ws_moveit/build/launch_param_builder/build/lib/launch_param_builder
+[0.804s] copying launch_param_builder/launch_param_builder.py -> /home/jone/ws_moveit/build/launch_param_builder/build/lib/launch_param_builder
+[0.804s] copying launch_param_builder/utils.py -> /home/jone/ws_moveit/build/launch_param_builder/build/lib/launch_param_builder
+[0.804s] running install
+[0.805s] running install_lib
+[0.806s] creating /home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[0.806s] copying /home/jone/ws_moveit/build/launch_param_builder/build/lib/launch_param_builder/__init__.py -> /home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[0.806s] copying /home/jone/ws_moveit/build/launch_param_builder/build/lib/launch_param_builder/launch_param_builder.py -> /home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[0.806s] copying /home/jone/ws_moveit/build/launch_param_builder/build/lib/launch_param_builder/utils.py -> /home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[0.806s] byte-compiling /home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/__init__.py to __init__.cpython-310.pyc
+[0.807s] byte-compiling /home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/launch_param_builder.py to launch_param_builder.cpython-310.pyc
+[0.807s] byte-compiling /home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/utils.py to utils.cpython-310.pyc
+[0.807s] running install_data
+[0.807s] creating /home/jone/ws_moveit/install/launch_param_builder/share/ament_index
+[0.808s] creating /home/jone/ws_moveit/install/launch_param_builder/share/ament_index/resource_index
+[0.808s] creating /home/jone/ws_moveit/install/launch_param_builder/share/ament_index/resource_index/packages
+[0.808s] copying resource/launch_param_builder -> /home/jone/ws_moveit/install/launch_param_builder/share/ament_index/resource_index/packages
+[0.808s] creating /home/jone/ws_moveit/install/launch_param_builder/share/launch_param_builder/launch
+[0.808s] copying example/launch_param_builder_example.launch.py -> /home/jone/ws_moveit/install/launch_param_builder/share/launch_param_builder/launch
+[0.808s] creating /home/jone/ws_moveit/install/launch_param_builder/share/launch_param_builder/config
+[0.808s] copying test/data/parameter.xacro -> /home/jone/ws_moveit/install/launch_param_builder/share/launch_param_builder/config
+[0.808s] copying test/data/parameter_file -> /home/jone/ws_moveit/install/launch_param_builder/share/launch_param_builder/config
+[0.808s] copying test/data/parameters_injection.yaml -> /home/jone/ws_moveit/install/launch_param_builder/share/launch_param_builder/config
+[0.808s] copying test/data/param_file_to_inject.yaml -> /home/jone/ws_moveit/install/launch_param_builder/share/launch_param_builder/config
+[0.808s] copying test/data/parameters.yaml -> /home/jone/ws_moveit/install/launch_param_builder/share/launch_param_builder/config
+[0.809s] copying package.xml -> /home/jone/ws_moveit/install/launch_param_builder/share/launch_param_builder
+[0.809s] creating /home/jone/ws_moveit/install/launch_param_builder/lib/launch_param_builder
+[0.809s] copying example/example_node.py -> /home/jone/ws_moveit/install/launch_param_builder/lib/launch_param_builder
+[0.809s] running install_egg_info
+[0.811s] Copying ../../build/launch_param_builder/launch_param_builder.egg-info to /home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder-0.1.1-py3.10.egg-info
+[0.812s] running install_scripts
+[0.832s] writing list of installed files to '/home/jone/ws_moveit/build/launch_param_builder/install.log'

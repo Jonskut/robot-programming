@@ -54,6 +54,9 @@ Explain the following with knowledge from Task 1 and Task 2 :
 
 ## Task 3
 
+> [!IMPORTANT]
+> Check that when demoing, task3 cpp has been loaded to hello_moveit.cpp
+
 [tutorial](https://moveit.picknik.ai/main/doc/tutorials/visualizing_in_rviz/visualizing_in_rviz.html)
 Follow the tutorial commands to demo if this doesnt work:
 (remember to activate task3 rviz config from file -> recents)
@@ -66,5 +69,44 @@ ros2 launch moveit2_tutorials demo.launch.py
 cd ~/ws_moveit
 source install/setup.bash
 ros2 run hello_moveit hello_moveit
+```
+
+## Task 4
+
+[tuto](https://moveit.picknik.ai/main/doc/tutorials/planning_around_objects/planning_around_objects.html)
+
+```bash
+cd ~/ws_moveit
+source install/setup.bash
+ros2 launch moveit2_tutorials demo.launch.py
+```
+
+> [!IMPORTANT]
+> Remember 2 cpp files depending on tas3 or task4
+
+**How the classes work**
+- RobotState: Holds a snapshot of the robot state, needs RobotModel.
+- CurrentStateMonitor: Monitors simulator publishing and updates RobotState
+- PlanningScene: Has RobotState + environment, test if a candidate is valid
+-PlanningSceneMonitor: Monitors the world via ROStopics (etc?) and updates PlanningScene
+- PlanningSceneInterface: used to modify the scene (add stuff, remove stuff, attach stuff)
+
+Topics -> CurrentStateMonitor -> RobotState -> PlanningSceneMonitor -> PlanningScene -> RViz / Planner
+
+## Task 5
+
+[tutor](https://moveit.picknik.ai/main/doc/tutorials/pick_and_place_with_moveit_task_constructor/pick_and_place_with_moveit_task_constructor.html) 
+
+```bash
+cd ~/ws_moveit
+source install/setup.bash
+ros2 launch mtc_tutorial pick_place_demo.launch.py
+```
+
+
+```bash
+cd ~/ws_moveit
+source install/setup.bash
+ros2 launch moveit2_tutorials mtc_demo.launch.py
 ```
 

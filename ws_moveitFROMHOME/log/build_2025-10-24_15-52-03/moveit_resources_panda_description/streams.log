@@ -1,0 +1,57 @@
+[0.006s] Invoking command in '/home/jone/ws_moveit/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jone/ws_moveit/src/moveit_resources/panda_description -DCMAKE_BUILD_PARALLEL_LEVEL=1 -DCMAKE_INSTALL_PREFIX=/home/jone/ws_moveit/install/moveit_resources_panda_description
+[0.017s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.156s] -- Configuring done
+[0.159s] -- Generating done
+[0.160s] [33mCMake Warning:
+[0.160s]   Manually-specified variables were not used by the project:
+[0.160s] 
+[0.160s]     CMAKE_BUILD_PARALLEL_LEVEL
+[0.160s] 
+[0.160s] [0m
+[0.161s] -- Build files have been written to: /home/jone/ws_moveit/build/moveit_resources_panda_description
+[0.163s] Invoked command in '/home/jone/ws_moveit/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jone/ws_moveit/src/moveit_resources/panda_description -DCMAKE_BUILD_PARALLEL_LEVEL=1 -DCMAKE_INSTALL_PREFIX=/home/jone/ws_moveit/install/moveit_resources_panda_description
+[0.165s] Invoking command in '/home/jone/ws_moveit/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jone/ws_moveit/build/moveit_resources_panda_description -- -j16 -l16
+[0.197s] Invoked command in '/home/jone/ws_moveit/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jone/ws_moveit/build/moveit_resources_panda_description -- -j16 -l16
+[0.198s] Invoking command in '/home/jone/ws_moveit/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jone/ws_moveit/build/moveit_resources_panda_description
+[0.204s] -- Install configuration: "Release"
+[0.205s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/ament_index/resource_index/package_run_dependencies/moveit_resources_panda_description
+[0.205s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/ament_index/resource_index/parent_prefix_path/moveit_resources_panda_description
+[0.205s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.sh
+[0.205s] -- Installing: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.dsv
+[0.206s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.sh
+[0.206s] -- Installing: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.dsv
+[0.206s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.bash
+[0.206s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.sh
+[0.206s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.zsh
+[0.206s] -- Installing: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.dsv
+[0.207s] -- Installing: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.dsv
+[0.207s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/ament_index/resource_index/packages/moveit_resources_panda_description
+[0.207s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig.cmake
+[0.207s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig-version.cmake
+[0.207s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.xml
+[0.207s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes
+[0.207s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual
+[0.208s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link4.dae
+[0.208s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link5.dae
+[0.208s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link1.dae
+[0.208s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link2.dae
+[0.208s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/finger.dae
+[0.208s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link0.dae
+[0.208s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link7.dae
+[0.208s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link6.dae
+[0.208s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link3.dae
+[0.208s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/hand.dae
+[0.208s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision
+[0.208s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link5.stl
+[0.208s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link4.stl
+[0.208s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/hand.stl
+[0.208s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link2.stl
+[0.208s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link0.stl
+[0.209s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link3.stl
+[0.209s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link7.stl
+[0.209s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link6.stl
+[0.209s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/finger.stl
+[0.209s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link1.stl
+[0.209s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf
+[0.209s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf/panda.urdf
+[0.210s] Invoked command in '/home/jone/ws_moveit/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jone/ws_moveit/build/moveit_resources_panda_description

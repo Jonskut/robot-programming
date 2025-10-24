@@ -1,0 +1,6 @@
+gmake[2]: *** [CMakeFiles/rosparam_shortcuts.dir/build.make:90: CMakeFiles/rosparam_shortcuts.dir/src/rosparam_shortcuts.cpp.o] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:161: CMakeFiles/rosparam_shortcuts.dir/all] Error 2
+gmake: *** [Makefile:146: all] Interrupt

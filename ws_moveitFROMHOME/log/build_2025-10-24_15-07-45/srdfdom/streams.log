@@ -1,0 +1,74 @@
+[0.025s] Invoking command in '/home/jone/ws_moveit/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jone/ws_moveit/build/srdfdom -- -j16 -l16
+[0.244s] [ 18%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o[0m
+[0.244s] [ 27%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.245s] [ 27%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/model.cpp.o[0m
+[0.245s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.245s] [ 36%] Built target ament_cmake_python_copy_srdfdom
+[0.319s] running egg_info
+[0.319s] creating srdfdom.egg-info
+[0.319s] writing srdfdom.egg-info/PKG-INFO
+[0.319s] writing dependency_links to srdfdom.egg-info/dependency_links.txt
+[0.319s] writing top-level names to srdfdom.egg-info/top_level.txt
+[0.320s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[0.320s] reading manifest file 'srdfdom.egg-info/SOURCES.txt'
+[0.320s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[0.351s] [ 36%] Built target ament_cmake_python_build_srdfdom_egg
+[1.035s] [ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.083s] [ 45%] Built target gtest_main
+[3.629s] [ 54%] [32m[1mLinking CXX shared library libsrdfdom.so[0m
+[3.749s] [ 54%] Built target srdfdom
+[9.323s] [ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[9.367s] [ 63%] Built target gtest
+[9.388s] [ 81%] [32mBuilding CXX object CMakeFiles/test_cpp_nl_NL.UTF-8.dir/test/test_parser.cpp.o[0m
+[9.388s] [ 81%] [32mBuilding CXX object CMakeFiles/test_cpp_C.dir/test/test_parser.cpp.o[0m
+[11.694s] [ 90%] [32m[1mLinking CXX executable test_cpp_C[0m
+[11.701s] [100%] [32m[1mLinking CXX executable test_cpp_nl_NL.UTF-8[0m
+[11.806s] [100%] Built target test_cpp_C
+[11.822s] [100%] Built target test_cpp_nl_NL.UTF-8
+[11.840s] Invoked command in '/home/jone/ws_moveit/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jone/ws_moveit/build/srdfdom -- -j16 -l16
+[11.842s] Invoking command in '/home/jone/ws_moveit/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jone/ws_moveit/build/srdfdom
+[11.850s] -- Install configuration: "Release"
+[11.850s] -- Installing: /home/jone/ws_moveit/install/srdfdom/lib/libsrdfdom.so.2.0.8
+[11.850s] -- Set runtime path of "/home/jone/ws_moveit/install/srdfdom/lib/libsrdfdom.so.2.0.8" to ""
+[11.850s] -- Installing: /home/jone/ws_moveit/install/srdfdom/lib/libsrdfdom.so
+[11.851s] -- Installing: /home/jone/ws_moveit/install/srdfdom/include/srdfdom
+[11.851s] -- Installing: /home/jone/ws_moveit/install/srdfdom/include/srdfdom/srdfdom
+[11.851s] -- Installing: /home/jone/ws_moveit/install/srdfdom/include/srdfdom/srdfdom/srdf_writer.h
+[11.851s] -- Installing: /home/jone/ws_moveit/install/srdfdom/include/srdfdom/srdfdom/model.h
+[11.851s] -- Installing: /home/jone/ws_moveit/install/srdfdom/include/srdfdom/srdfdom/visibility_control.h
+[11.851s] -- Installing: /home/jone/ws_moveit/install/srdfdom/lib/srdfdom/display_srdf
+[11.851s] -- Installing: /home/jone/ws_moveit/install/srdfdom/share/srdfdom/environment/pythonpath.sh
+[11.851s] -- Installing: /home/jone/ws_moveit/install/srdfdom/share/srdfdom/environment/pythonpath.dsv
+[11.851s] -- Installing: /home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.8-py3.10.egg-info
+[11.852s] -- Installing: /home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.8-py3.10.egg-info/SOURCES.txt
+[11.852s] -- Installing: /home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.8-py3.10.egg-info/top_level.txt
+[11.852s] -- Installing: /home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.8-py3.10.egg-info/dependency_links.txt
+[11.852s] -- Installing: /home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.8-py3.10.egg-info/PKG-INFO
+[11.852s] -- Installing: /home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom
+[11.852s] -- Installing: /home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py
+[11.852s] -- Installing: /home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py
+[11.899s] Listing '/home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom'...
+[11.899s] Compiling '/home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py'...
+[11.899s] Compiling '/home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py'...
+[11.910s] -- Installing: /home/jone/ws_moveit/install/srdfdom/share/srdfdom/environment/library_path.sh
+[11.910s] -- Installing: /home/jone/ws_moveit/install/srdfdom/share/srdfdom/environment/library_path.dsv
+[11.911s] -- Installing: /home/jone/ws_moveit/install/srdfdom/share/ament_index/resource_index/package_run_dependencies/srdfdom
+[11.911s] -- Installing: /home/jone/ws_moveit/install/srdfdom/share/ament_index/resource_index/parent_prefix_path/srdfdom
+[11.912s] -- Installing: /home/jone/ws_moveit/install/srdfdom/share/srdfdom/environment/ament_prefix_path.sh
+[11.912s] -- Installing: /home/jone/ws_moveit/install/srdfdom/share/srdfdom/environment/ament_prefix_path.dsv
+[11.913s] -- Installing: /home/jone/ws_moveit/install/srdfdom/share/srdfdom/environment/path.sh
+[11.913s] -- Installing: /home/jone/ws_moveit/install/srdfdom/share/srdfdom/environment/path.dsv
+[11.914s] -- Installing: /home/jone/ws_moveit/install/srdfdom/share/srdfdom/local_setup.bash
+[11.914s] -- Installing: /home/jone/ws_moveit/install/srdfdom/share/srdfdom/local_setup.sh
+[11.914s] -- Installing: /home/jone/ws_moveit/install/srdfdom/share/srdfdom/local_setup.zsh
+[11.915s] -- Installing: /home/jone/ws_moveit/install/srdfdom/share/srdfdom/local_setup.dsv
+[11.915s] -- Installing: /home/jone/ws_moveit/install/srdfdom/share/srdfdom/package.dsv
+[11.916s] -- Installing: /home/jone/ws_moveit/install/srdfdom/share/ament_index/resource_index/packages/srdfdom
+[11.916s] -- Installing: /home/jone/ws_moveit/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport.cmake
+[11.916s] -- Installing: /home/jone/ws_moveit/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport-release.cmake
+[11.917s] -- Installing: /home/jone/ws_moveit/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_targets-extras.cmake
+[11.917s] -- Installing: /home/jone/ws_moveit/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.918s] -- Installing: /home/jone/ws_moveit/install/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake
+[11.918s] -- Installing: /home/jone/ws_moveit/install/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake
+[11.918s] -- Installing: /home/jone/ws_moveit/install/srdfdom/share/srdfdom/package.xml
+[11.926s] Invoked command in '/home/jone/ws_moveit/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jone/ws_moveit/build/srdfdom

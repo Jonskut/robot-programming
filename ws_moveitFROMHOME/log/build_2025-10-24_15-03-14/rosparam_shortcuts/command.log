@@ -1,0 +1,1 @@
+Invoking command in '/home/jone/ws_moveit/build/rosparam_shortcuts': /usr/bin/cmake /home/jone/ws_moveit/src/rosparam_shortcuts -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jone/ws_moveit/install/rosparam_shortcuts

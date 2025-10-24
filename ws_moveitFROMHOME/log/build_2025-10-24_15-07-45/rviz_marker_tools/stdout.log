@@ -1,0 +1,30 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/rviz_marker_tools.dir/src/marker_creation.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library librviz_marker_tools.so[0m
+[100%] Built target rviz_marker_tools
+-- Install configuration: "Release"
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/include
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/include/rviz_marker_tools
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/include/rviz_marker_tools/marker_creation.h
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/lib/librviz_marker_tools.so
+-- Set runtime path of "/home/jone/ws_moveit/install/rviz_marker_tools/lib/librviz_marker_tools.so" to ""
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.sh
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.dsv
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/share/ament_index/resource_index/package_run_dependencies/rviz_marker_tools
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/share/ament_index/resource_index/parent_prefix_path/rviz_marker_tools
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.sh
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.dsv
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.sh
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.dsv
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.bash
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.sh
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.zsh
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.dsv
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/package.dsv
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/share/ament_index/resource_index/packages/rviz_marker_tools
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport.cmake
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport-release.cmake
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig.cmake
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig-version.cmake
+-- Installing: /home/jone/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/package.xml

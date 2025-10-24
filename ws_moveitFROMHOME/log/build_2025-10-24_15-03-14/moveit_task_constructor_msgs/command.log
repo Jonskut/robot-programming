@@ -1,0 +1,1 @@
+Invoking command in '/home/jone/ws_moveit/build/moveit_task_constructor_msgs': /usr/bin/cmake /home/jone/ws_moveit/src/moveit_task_constructor/msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jone/ws_moveit/install/moveit_task_constructor_msgs

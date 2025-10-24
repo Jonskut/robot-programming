@@ -1,0 +1,3 @@
+gmake[2]: *** [mesh_filter/CMakeFiles/moveit_mesh_filter.dir/build.make:76: mesh_filter/CMakeFiles/moveit_mesh_filter.dir/src/mesh_filter_base.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:351: mesh_filter/CMakeFiles/moveit_mesh_filter.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

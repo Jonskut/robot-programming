@@ -1,0 +1,143 @@
+[0.017s] Invoking command in '/home/jone/ws_moveit/build/moveit_ros_planning': AMENT_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/moveit_configs_utils:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common:/home/jone/ws_moveit/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jone/ws_moveit/install/moveit_core/lib:/home/jone/ws_moveit/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/jone/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jone/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jone/ws_moveit/build/moveit_ros_planning
+[0.077s] [  4%] Built target moveit_rdf_loader
+[0.107s] [  7%] Built target moveit_collision_plugin_loader
+[0.138s] [ 10%] Built target moveit_kinematics_plugin_loader
+[0.165s] [ 13%] Built target moveit_robot_model_loader
+[0.194s] [ 16%] Built target moveit_constraint_sampler_manager_loader
+[0.224s] [ 19%] Built target moveit_planning_pipeline
+[0.274s] [ 35%] Built target moveit_default_planning_request_adapter_plugins
+[0.301s] [ 38%] Built target moveit_list_request_adapter_plugins
+[0.346s] [ 47%] Built target moveit_planning_scene_monitor
+[0.378s] [ 50%] Built target demo_scene
+[0.398s] [ 52%] Built target gmock_main
+[0.421s] [ 57%] Built target gmock
+[0.452s] [ 60%] Built target current_state_monitor_tests
+[0.482s] [ 63%] Built target trajectory_monitor_tests
+[0.502s] [ 66%] Built target gtest_main
+[0.523s] [ 69%] Built target gtest
+[0.555s] [ 72%] Built target planning_scene_monitor_test
+[0.581s] [ 75%] Built target moveit_print_planning_model_info
+[0.614s] [ 77%] Built target moveit_print_planning_scene_info
+[0.648s] [ 80%] Built target moveit_display_random_state
+[0.680s] [ 83%] Built target moveit_visualize_robot_collision_volume
+[0.714s] [ 86%] Built target moveit_evaluate_collision_checking_speed
+[0.747s] [ 89%] Built target moveit_publish_scene_from_text
+[0.779s] [ 92%] Built target moveit_trajectory_execution_manager
+[0.812s] [ 95%] Built target moveit_plan_execution
+[0.849s] [100%] Built target moveit_cpp
+[0.859s] Invoked command in '/home/jone/ws_moveit/build/moveit_ros_planning' returned '0': AMENT_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/moveit_configs_utils:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common:/home/jone/ws_moveit/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jone/ws_moveit/install/moveit_core/lib:/home/jone/ws_moveit/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/jone/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jone/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jone/ws_moveit/build/moveit_ros_planning
+[0.861s] Invoking command in '/home/jone/ws_moveit/build/moveit_ros_planning': AMENT_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/moveit_configs_utils:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common:/home/jone/ws_moveit/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jone/ws_moveit/install/moveit_core/lib:/home/jone/ws_moveit/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/jone/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jone/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jone/ws_moveit/build/moveit_ros_planning
+[0.868s] -- Install configuration: "Release"
+[0.868s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include
+[0.869s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit
+[0.869s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/rdf_loader
+[0.869s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/rdf_loader/rdf_loader.h
+[0.869s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/rdf_loader/synchronized_string_parameter.h
+[0.869s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data
+[0.869s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/kermit.srdf
+[0.870s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/gonzo.srdf
+[0.870s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/gonzo.urdf
+[0.870s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/kermit.urdf
+[0.870s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/robin.srdf.xacro
+[0.870s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/launch
+[0.870s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/launch/test_rdf_integration.test.py
+[0.870s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include
+[0.870s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit
+[0.870s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/collision_plugin_loader
+[0.870s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/collision_plugin_loader/collision_plugin_loader.h
+[0.870s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include
+[0.871s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit
+[0.871s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/kinematics_plugin_loader
+[0.871s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/kinematics_plugin_loader/kinematics_plugin_loader.h
+[0.871s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include
+[0.871s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit
+[0.871s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/robot_model_loader
+[0.871s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/robot_model_loader/robot_model_loader.h
+[0.871s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include
+[0.871s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit
+[0.871s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/constraint_sampler_manager_loader
+[0.871s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/constraint_sampler_manager_loader/constraint_sampler_manager_loader.h
+[0.872s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include
+[0.872s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit
+[0.872s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/planning_pipeline
+[0.872s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h
+[0.872s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit_planning_pipeline_export.h
+[0.873s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_list_request_adapter_plugins
+[0.874s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/demo_scene
+[0.874s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include
+[0.874s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit
+[0.874s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/planning_scene_monitor
+[0.874s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/planning_scene_monitor/current_state_monitor.h
+[0.875s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/planning_scene_monitor/trajectory_monitor.h
+[0.875s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/planning_scene_monitor/trajectory_monitor_middleware_handle.hpp
+[0.875s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/planning_scene_monitor/planning_scene_monitor.h
+[0.875s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/planning_scene_monitor/current_state_monitor_middleware_handle.hpp
+[0.875s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit_planning_scene_monitor_export.h
+[0.876s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_print_planning_model_info
+[0.877s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_print_planning_scene_info
+[0.877s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_display_random_state
+[0.878s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_visualize_robot_collision_volume
+[0.878s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_evaluate_collision_checking_speed
+[0.879s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_publish_scene_from_text
+[0.880s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include
+[0.880s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit
+[0.880s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/trajectory_execution_manager
+[0.880s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h
+[0.880s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit_trajectory_execution_manager_export.h
+[0.880s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include
+[0.880s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit
+[0.880s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/plan_execution
+[0.880s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/plan_execution/plan_representation.h
+[0.880s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/plan_execution/plan_execution.h
+[0.881s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include
+[0.881s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit
+[0.881s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/moveit_cpp
+[0.881s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/moveit_cpp/planning_component.h
+[0.881s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/include/moveit/moveit_cpp/moveit_cpp.h
+[0.882s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/libmoveit_rdf_loader.so.2.5.9
+[0.882s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/libmoveit_rdf_loader.so
+[0.882s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/libmoveit_kinematics_plugin_loader.so.2.5.9
+[0.882s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/libmoveit_kinematics_plugin_loader.so
+[0.883s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/libmoveit_robot_model_loader.so.2.5.9
+[0.883s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/libmoveit_robot_model_loader.so
+[0.884s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/libmoveit_constraint_sampler_manager_loader.so.2.5.9
+[0.884s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/libmoveit_constraint_sampler_manager_loader.so
+[0.885s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/libmoveit_planning_pipeline.so.2.5.9
+[0.885s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/libmoveit_planning_pipeline.so
+[0.886s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/libmoveit_trajectory_execution_manager.so.2.5.9
+[0.886s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/libmoveit_trajectory_execution_manager.so
+[0.887s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/libmoveit_plan_execution.so.2.5.9
+[0.887s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/libmoveit_plan_execution.so
+[0.888s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/libmoveit_planning_scene_monitor.so.2.5.9
+[0.888s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/libmoveit_planning_scene_monitor.so
+[0.888s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/libmoveit_collision_plugin_loader.so.2.5.9
+[0.888s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/libmoveit_collision_plugin_loader.so
+[0.889s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/libmoveit_default_planning_request_adapter_plugins.so.2.5.9
+[0.889s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/libmoveit_default_planning_request_adapter_plugins.so
+[0.890s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/libmoveit_cpp.so.2.5.9
+[0.890s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/lib/libmoveit_cpp.so
+[0.890s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/environment/library_path.sh
+[0.890s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/environment/library_path.dsv
+[0.890s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/planning_request_adapters_plugin_description.xml
+[0.890s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/ament_index/resource_index/package_run_dependencies/moveit_ros_planning
+[0.891s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/ament_index/resource_index/parent_prefix_path/moveit_ros_planning
+[0.891s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/environment/ament_prefix_path.sh
+[0.891s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/environment/ament_prefix_path.dsv
+[0.891s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/environment/path.sh
+[0.891s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/environment/path.dsv
+[0.891s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/local_setup.bash
+[0.891s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/local_setup.sh
+[0.891s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/local_setup.zsh
+[0.891s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/local_setup.dsv
+[0.891s] -- Installing: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/package.dsv
+[0.891s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/ament_index/resource_index/packages/moveit_ros_planning
+[0.891s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_ros_planning
+[0.893s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake/export_moveit_ros_planningExport.cmake
+[0.893s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake/export_moveit_ros_planningExport-release.cmake
+[0.893s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake/ConfigExtras.cmake
+[0.893s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake/ament_cmake_export_targets-extras.cmake
+[0.893s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.893s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake/moveit_ros_planningConfig.cmake
+[0.893s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake/moveit_ros_planningConfig-version.cmake
+[0.893s] -- Up-to-date: /home/jone/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/package.xml
+[0.895s] Invoked command in '/home/jone/ws_moveit/build/moveit_ros_planning' returned '0': AMENT_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/moveit_configs_utils:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common:/home/jone/ws_moveit/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jone/ws_moveit/install/moveit_core:/home/jone/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jone/ws_moveit/install/srdfdom:/home/jone/ws_moveit/install/moveit_resources_pr2_description:/home/jone/ws_moveit/install/moveit_resources_panda_description:/home/jone/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jone/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jone/ws_moveit/install/moveit_core/lib:/home/jone/ws_moveit/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/jone/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jone/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jone/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/jone/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jone/ws_moveit/build/moveit_ros_planning

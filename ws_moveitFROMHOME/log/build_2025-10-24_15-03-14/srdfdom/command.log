@@ -1,0 +1,1 @@
+Invoking command in '/home/jone/ws_moveit/build/srdfdom': /usr/bin/cmake /home/jone/ws_moveit/src/srdfdom -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jone/ws_moveit/install/srdfdom

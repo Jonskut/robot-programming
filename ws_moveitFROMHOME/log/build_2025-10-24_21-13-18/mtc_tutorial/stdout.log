@@ -1,0 +1,23 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/mtc_node.dir/src/mtc_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable mtc_node[0m
+[100%] Built target mtc_node
+-- Install configuration: "Release"
+-- Installing: /home/jone/ws_moveit/install/mtc_tutorial/lib/mtc_tutorial/mtc_node
+-- Set runtime path of "/home/jone/ws_moveit/install/mtc_tutorial/lib/mtc_tutorial/mtc_node" to ""
+-- Installing: /home/jone/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/launch
+-- Installing: /home/jone/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/launch/pick_place_demo.launch.py
+-- Installing: /home/jone/ws_moveit/install/mtc_tutorial/share/ament_index/resource_index/package_run_dependencies/mtc_tutorial
+-- Installing: /home/jone/ws_moveit/install/mtc_tutorial/share/ament_index/resource_index/parent_prefix_path/mtc_tutorial
+-- Installing: /home/jone/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/environment/ament_prefix_path.sh
+-- Installing: /home/jone/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/environment/ament_prefix_path.dsv
+-- Installing: /home/jone/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/environment/path.sh
+-- Installing: /home/jone/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/environment/path.dsv
+-- Installing: /home/jone/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/local_setup.bash
+-- Installing: /home/jone/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/local_setup.sh
+-- Installing: /home/jone/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/local_setup.zsh
+-- Installing: /home/jone/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/local_setup.dsv
+-- Up-to-date: /home/jone/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/package.dsv
+-- Installing: /home/jone/ws_moveit/install/mtc_tutorial/share/ament_index/resource_index/packages/mtc_tutorial
+-- Installing: /home/jone/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/cmake/mtc_tutorialConfig.cmake
+-- Installing: /home/jone/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/cmake/mtc_tutorialConfig-version.cmake
+-- Installing: /home/jone/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/package.xml

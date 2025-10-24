@@ -1,0 +1,6 @@
+Invoking command in '/home/jone/ws_moveit/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jone/ws_moveit/src/srdfdom -DCMAKE_BUILD_PARALLEL_LEVEL=1 -DCMAKE_INSTALL_PREFIX=/home/jone/ws_moveit/install/srdfdom
+Invoked command in '/home/jone/ws_moveit/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jone/ws_moveit/src/srdfdom -DCMAKE_BUILD_PARALLEL_LEVEL=1 -DCMAKE_INSTALL_PREFIX=/home/jone/ws_moveit/install/srdfdom
+Invoking command in '/home/jone/ws_moveit/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jone/ws_moveit/build/srdfdom -- -j16 -l16
+Invoked command in '/home/jone/ws_moveit/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jone/ws_moveit/build/srdfdom -- -j16 -l16
+Invoking command in '/home/jone/ws_moveit/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jone/ws_moveit/build/srdfdom
+Invoked command in '/home/jone/ws_moveit/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jone/ws_moveit/build/srdfdom

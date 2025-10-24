@@ -1,0 +1,37 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jone/ws/build/walking_actor
+-- Install configuration: ""
+-- Installing: /home/jone/ws/install/walking_actor/share/walking_actor/launch
+-- Installing: /home/jone/ws/install/walking_actor/share/walking_actor/launch/cam_world.launch.py
+-- Installing: /home/jone/ws/install/walking_actor/share/walking_actor/rviz
+-- Installing: /home/jone/ws/install/walking_actor/share/walking_actor/rviz/camera.rviz
+-- Installing: /home/jone/ws/install/walking_actor/share/ament_index/resource_index/package_run_dependencies/walking_actor
+-- Installing: /home/jone/ws/install/walking_actor/share/ament_index/resource_index/parent_prefix_path/walking_actor
+-- Installing: /home/jone/ws/install/walking_actor/share/walking_actor/environment/ament_prefix_path.sh
+-- Installing: /home/jone/ws/install/walking_actor/share/walking_actor/environment/ament_prefix_path.dsv
+-- Installing: /home/jone/ws/install/walking_actor/share/walking_actor/environment/path.sh
+-- Installing: /home/jone/ws/install/walking_actor/share/walking_actor/environment/path.dsv
+-- Installing: /home/jone/ws/install/walking_actor/share/walking_actor/local_setup.bash
+-- Installing: /home/jone/ws/install/walking_actor/share/walking_actor/local_setup.sh
+-- Installing: /home/jone/ws/install/walking_actor/share/walking_actor/local_setup.zsh
+-- Installing: /home/jone/ws/install/walking_actor/share/walking_actor/local_setup.dsv
+-- Installing: /home/jone/ws/install/walking_actor/share/walking_actor/package.dsv
+-- Installing: /home/jone/ws/install/walking_actor/share/ament_index/resource_index/packages/walking_actor
+-- Installing: /home/jone/ws/install/walking_actor/share/walking_actor/cmake/walking_actorConfig.cmake
+-- Installing: /home/jone/ws/install/walking_actor/share/walking_actor/cmake/walking_actorConfig-version.cmake
+-- Installing: /home/jone/ws/install/walking_actor/share/walking_actor/package.xml

@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/rviz_marker_tools.dir/build.make:76: CMakeFiles/rviz_marker_tools.dir/src/marker_creation.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rviz_marker_tools.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt
